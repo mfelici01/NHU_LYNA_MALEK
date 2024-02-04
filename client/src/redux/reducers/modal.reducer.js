@@ -1,4 +1,4 @@
-// pour traiter model
+
 import { INIT_STATE } from "../../constant";
 import { getType, modal } from "../actions";
 

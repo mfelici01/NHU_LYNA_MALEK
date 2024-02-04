@@ -149,7 +149,7 @@ export default function Login() {
                                         </div>
                                     </div>
 
-                                    {/* Bouton de connexion avec Discord */}
+
                                     <DiscordButton />
                                 </div>
                                 <div className="row">

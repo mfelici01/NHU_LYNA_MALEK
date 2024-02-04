@@ -14,7 +14,6 @@ const sagaMiddleware = createSagaMiddleware();
 // Créer le store avec le middleware Saga
 const store = createStore(reducers, applyMiddleware(sagaMiddleware));
 
-//sagaMiddleware.arguments(mySaga);
 // Exécuter saga avec le middleware
 sagaMiddleware.run(mySaga);
 
